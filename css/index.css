@@ -1,0 +1,38 @@
+.navbar-brand {
+    background-color: blueviolet;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroImg {
+    width: calc(100vh - 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.Title {
+    text-align: center;
+}
+
+.aboutProject {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;;
+    color: blueviolet;
+}
