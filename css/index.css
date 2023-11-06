@@ -1,4 +1,4 @@
-.navbar-brand {
+.navbar-brand, .navbar-light, .navbar-nav {
     background-color: blueviolet;
 }
 
@@ -6,6 +6,9 @@
     text-align: right;
 }
 
+body {
+    padding: 10%;
+}
 .hero {
     display: flex;
     align-items: center;
@@ -18,7 +21,6 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .Title {
@@ -32,7 +34,114 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin: 60px;
     padding: 20px;;
     color: blueviolet;
+}
+
+.Skills {
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 20px;;
+}
+
+button {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+.TOC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Overview {
+    padding: 20px;
+}
+
+.Overview h2 {
+    color: blueviolet;
+}
+
+.problemSolution {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap: 50px;
+    border: 1px dashed blueviolet;
+}
+
+.problemSolution h3 {
+    color: blueviolet;
+}
+
+.Research {
+    padding: 20px;
+}
+
+.Research h3 {
+    color: blueviolet;
+}
+
+.quote {
+    text-align: center;
+    padding: 20px;
+}
+
+.quote h2 {
+    color: blueviolet;
+}
+
+.intro {
+    padding: 20px;
+}
+
+.Prototyping {
+    padding: 20px;
+}
+
+.Prototyping h3 {
+    color: blueviolet;
+}
+
+.Testing {
+    padding: 20px;
+}
+
+.Testing h3 {
+    color: blueviolet;
+}
+
+.WIP {
+    padding: 20px;
+}
+
+.WIP h3 {
+    color: blueviolet;
+}
+
+.Conclusion {
+    padding: 20px;
+}
+
+.Conclusion h3 {
+    color: blueviolet;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Dela Gothic One', sans-serif;
 }
