@@ -1,5 +1,7 @@
-.navbar-brand, .navbar-light, .navbar-nav {
+.navbar-nav {
     background-color: blueviolet;
+    text-align: right;
+    color: white;
 }
 
 .nav-link {
