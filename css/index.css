@@ -50,7 +50,7 @@ body {
 
 button {
     color: blueviolet;
-    background-color: ivory;
+    background-color:whitesmoke;
     border: 1px solid blueviolet;
     border-radius: 10px;
 }
@@ -71,6 +71,21 @@ button {
     color: blueviolet;
 }
 
+#Process {
+    width: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+#ToDo {
+    width: 50vh;
+}
+
+#Planning {
+    width: 50vh;
+}
 .problemSolution {
     padding: 20px;
     margin: 10px;
@@ -83,11 +98,11 @@ button {
     color: blueviolet;
 }
 
-.Research {
+#Research {
     padding: 20px;
 }
 
-.Research h3 {
+#Research h3 {
     color: blueviolet;
 }
 
@@ -104,30 +119,150 @@ button {
     padding: 20px;
 }
 
-.Prototyping {
+#mockup {
+    width: calc(100vh - 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#Prototyping {
     padding: 20px;
 }
 
-.Prototyping h3 {
+#Prototyping h3 {
     color: blueviolet;
 }
 
-.Testing {
+#PrototypingImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;;
+}
+
+#Lowfi {
+    height: 320px;
+    width: auto;
+}
+
+#Midfi {
+    height: 320px;
+    width: auto;
+}
+
+#Hifi {
+    height: 320px;
+    width: auto;
+}
+
+#Final {
+    height: 320px;
+    width: auto;
+}
+#Testing {
     padding: 20px;
 }
 
-.Testing h3 {
-    color: blueviolet;
-}
-
-.WIP {
+#addDates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
     padding: 20px;
 }
 
-.WIP h3 {
+#where {
+    height: 320px;
+    width: auto;
+}
+
+#Add {
+    height: 320px;
+    width: auto;
+}
+
+#addDatesHiFi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#entry {
+    height: 320px;
+    width: auto;
+}
+
+#dates {
+    height: 320px;
+    width: auto;
+}
+
+#ItineraryImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#itineraryMidFi {
+    height: 320px;
+    width: auto;
+}
+
+#itineraryHiFi {
+    height: 320px;
+    width: auto;
+}
+
+#artDeco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#artDeco img {
+    height: 320px;
+    width: auto;
+}
+
+#Testing h3 {
     color: blueviolet;
 }
 
+#WIP {
+    padding: 20px;
+}
+
+#WIP h3 {
+    color: blueviolet;
+}
+
+#FinalImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#FinalImage img {
+    height: 320px;
+    width: auto;
+}
 .Conclusion {
     padding: 20px;
 }

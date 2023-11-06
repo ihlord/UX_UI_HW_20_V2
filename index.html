@@ -38,18 +38,21 @@
           <h4>Skills: Wireframing; interviewing; prototyping; Figma; pen & paper
         </div>
         <div class="TOC">
-          <button>1. Research</button>
-          <button>2. Prototyping</button>
-          <button>3. Testing</button>
-          <button>4. Iterating</button>
+          <a id="Research"><button>1. Research</button></a>
+          <a id="Prototyping"><button>2. Prototyping</button></a>
+          <a id="Testing"><button>3. Testing</button></a>
+          <a id="WIP"><button>4. Iterating</button></a>
         </div>
         <div class="Overview">
           <h2 style="text-align: center;">Overview</h2>
           <p> For my bootcamp, we had to design an app that addresses a problem travelers face. <br>
             <br>To better understand these painpoints, I interviewed six frequent travelers between 20 and 35 years old and learned that most travelers struggle with feeling unprepared when they arrive at a destination because they didn’t have the time or resources to plan ahead. They also mostly traveled in groups and found themselves frustrated by group indecision. 
             </p>
+            <div id="Process">
+              <img src="images/Screenshot 2023-09-28 at 6.26.12 PM.png" id="ToDo">
+              <img src="images/Screenshot 2023-09-28 at 6.26.22 PM.png" id="Planning">
+            </div>
         </div>
-        <!--Images-->
         <div class="problemSolution">
           <div class="problem">
             <h3>Problem</h3>
@@ -60,7 +63,7 @@
             <p>An app that aggregates destination information from vetted sources to help travelers efficiently prepare for their trips.</p>
           </div>
         </div>
-        <div class="Research">
+        <div id="Research">
           <h3 style="text-align: center;">Research</h3>
           <p> Through my user interviews, I learned about travelers' planning habits—what sites they visit when they do do that little amount of research before their trip (YouTube, TikTok, local blogs) and what's gotten them stumped in the past (is the tap water safe? How much should this taxi from the airport cost?). <br>
             <br> Why not create an app that answers all their questions in one place?</p>
@@ -73,38 +76,56 @@
             Enter Bonnie. Bonnie is a travel app that uses AI to tell travelers everything they need to know before (or during) their trip—from what to do if it’s raining to if there’s a strike happening. Plus, it lets users on group trips vote on itinerary activities, saving them time in the moment. 
             I wanted the app to have a human-sounding name, to make the AI element more approachable, and landed on Bonnie, a mix between bon voyage and la bonne vie.
           </p>
-          <!--Image-->
+          <img src="images/Bonnie shadow mockup.png" id="mockup">
         </div>
-        <div class="Prototyping">
+        <div id="Prototyping">
           <h3 style="text-align: center;">Prototyping</h3>
           <p> One of the biggest challenges I faced with this design project was finding the best way to package all the information I wanted to include. <br>
               <br> My first design used a tile system, but testers felt like it was too busy and their eyes didn’t know where to look. <br>
               <br> I then landed on a card design, inspired by social media and competitor apps like Pluto. I wanted this app to be quick to use, since time is such a big factor for travelers.
               </p>
-          <!--Image-->
+              <div id="PrototypingImg">
+                <img src="images/Bonnie-Low-fi.png" id="Lowfi">
+                <img src="images/Bonnie-Mid-fi.png" id="Midfi">
+                <img src="images/Bonnie-Hifi-V1.png" id="Hifi">
+                <img src="images/Bonnie-Final.png" id="Final">
+              </div>
         </div>
-        <div class="Testing">
+        <div id="Testing">
           <h3 style="text-align: center;">Testing</h3>
           <p> I tasked users with planning a trip from June 9 to 15—but they kept overlooking the “Add dates to trip” function.<br>
             <br>There was also a confirmation page after the “Add to itinerary” action that kept tripping users up. What was intended to be a way of preventing user error—if they accidentally added the trip, for example, or hadn’t finished inputting information—felt redundant to users who thought they had already added it.
               </p>
-          <!--Image-->
+            <div id="addDates">
+              <img src="images/Where to go.png" id="where">
+              <img src="images/Add-To-Trip-2.png" id="Add">
+            </div>
           <p> To address these problems, I made the datepicker appear only after a user starts typing a destination into the search bar, to help draw their eye to it. </p>
-          <!--Image-->
+            <div id="addDatesHiFi">
+              <img src="images/entry.png" id="entry">
+              <img src="images/dates.png" id="dates">
+            </div>
           <p> And I readjusted the “add to itinerary” confirmation page: I put more emphasis on asking the group, since it appears after the “add contacts” page and changed the date picker to emphasize Bonnie’s smart suggestions (fewer decisions for the user) with options to override. </p>
-          <!--Image-->
+            <div id="ItineraryImg">
+              <img src="images/Add-To-Trip-MidFi.png" id="itineraryMidFi">
+              <img src="images/Add-To-Trip-MidFi.png" id="itineraryHiFi">
+            </div>
         </div>
-        <div class="WIP">
+        <div id="WIP">
           <h3 style="text-align: center;">Work In Progress</h3>
           <p> The design continued to evolve as I moved into high-fidelity iterations and performed more user tests. <br> 
               <br> The app’s style was originally a bit retro, inspired by 1950s lifestyle magazines.
               </p>
-          <!--Image-->
+              <div id="artDeco">
+                <img src="images/Art Deco.png">
+              </div>
           <p> 
             It evolved into something more modern and in line with its AI function.<br>
             <br> The destination page ended up being a mix of cards and card-less information, as I tried to reduce visual distractions, and the menu bar—now with a chat feature—became more streamlined.
           </p>
-          <!--Image-->
+          <div id="FinalImage">
+            <img src="images/Bonnie Final Mockup.png">
+          </div>
         </div>
         <div class="Conclusion">
           <h3 style="text-align: center;">Conclusion</h3>
